@@ -11,9 +11,9 @@ A3 Capstone project Web Crawler and NLP
 ### Data loading and Wrangling Procedures.
 - The data is loaded into the environment, checked for any missing values.
 - The data is cleaned, removed for any URLs or unwanted noise in the data like determiners.
-- Rather than Named Entity Recognition (NER) words relating to Nouns, proper Nouns, Verbs and Adjectives are retained
+- Rather than Named Entity Recognition (NER) words relating to Nouns, Proper Nouns, Verbs and Adjectives are retained
 - The data is visualised with the NLTK Frequency methods and top occurring words with distribution plots.
-- The top occurring words are checked with WordClouds and the distribution.
+- The top occurring words are checked with WordClouds and the distribution plots.
 - The word’s distribution is checked with histograms and descriptive statistics is shown for the distribution.
  
 ### Application of Machine Learning(ML) algorithms and Natural Laguane Processing NLP tasks
@@ -23,7 +23,7 @@ A3 Capstone project Web Crawler and NLP
   - The initial model is done with stochastic model Latent Dirichlet Allocation (LDA)
     - Optimal model is retained through Cross-Validation of topics through the iterative approach.
     - The Number of topics is chosen on the optimal model which is used to build the current model.
-    - The optimal model built is visualised with Python LDA Visualisation (pyLDAvis) and topics through WordCloud.
+    - The optimal model built is visualised with Python Latent Dirichlet Allocation (LDA) Visualisation (pyLDAvis) and topics through WordCloud.
  - The second model is the dimensionality reduction method Non-negative Matrix Factorisation(NMF).
    - The optimal model and number of topics is selected through iterative cross-validation approach.
    - The optimal topic number is used to build the model and topics are visualised through WordCloud.
